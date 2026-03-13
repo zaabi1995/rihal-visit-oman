@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "home": "Home",
+    "destinations": "Destinations",
+    "planner": "Trip Planner",
+    "language": "العربية"
+  },
+  "hero": {
+    "title": "Discover Oman",
+    "subtitle": "Plan your perfect trip across the Sultanate",
+    "cta": "Plan Your Trip"
+  },
+  "categories": {
+    "mountain": "Mountain",
+    "beach": "Beach",
+    "culture": "Culture",
+    "desert": "Desert",
+    "nature": "Nature",
+    "food": "Food"
+  },
+  "regions": {
+    "muscat": "Muscat",
+    "dakhiliya": "Ad Dakhiliya",
+    "sharqiya": "Ash Sharqiya",
+    "dhofar": "Dhofar",
+    "batinah": "Al Batinah",
+    "dhahira": "Ad Dhahira"
+  },
+  "destinations": {
+    "title": "Explore Destinations",
+    "filter": "Filter",
+    "sort": "Sort by",
+    "sortByCrowd": "Crowd Level",
+    "sortByCost": "Ticket Cost",
+    "allCategories": "All Categories",
+    "allRegions": "All Regions",
+    "allSeasons": "All Months",
+    "saveInterest": "Save",
+    "removeInterest": "Saved",
+    "visitDuration": "Visit Duration",
+    "ticketCost": "Ticket Cost",
+    "crowdLevel": "Crowd Level",
+    "recommendedMonths": "Best Months",
+    "results": "{count} destinations found"
+  },
+  "planner": {
+    "title": "Plan Your Trip",
+    "days": "Number of Days",
+    "budget": "Budget",
+    "month": "Travel Month",
+    "intensity": "Trip Intensity",
+    "categories": "Interests",
+    "generate": "Generate Itinerary",
+    "low": "Budget",
+    "medium": "Mid-Range",
+    "luxury": "Luxury",
+    "relaxed": "Relaxed",
+    "balanced": "Balanced",
+    "packed": "Packed"
+  },
+  "months": {
+    "jan": "January",
+    "feb": "February",
+    "mar": "March",
+    "apr": "April",
+    "may": "May",
+    "jun": "June",
+    "jul": "July",
+    "aug": "August",
+    "sep": "September",
+    "oct": "October",
+    "nov": "November",
+    "dec": "December"
+  },
+  "common": {
+    "minutes": "min",
+    "hours": "hrs",
+    "km": "km",
+    "omr": "OMR",
+    "free": "Free",
+    "perDay": "/ day",
+    "perNight": "/ night",
+    "backToDestinations": "Back to Destinations"
+  },
+  "landing": {
+    "categoriesTitle": "Explore by Category",
+    "featuredTitle": "Featured Destinations",
+    "featuredSubtitle": "Hidden gems with low crowds, perfect for this time of year"
+  }
+}

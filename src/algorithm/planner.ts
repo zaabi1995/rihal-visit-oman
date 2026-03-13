@@ -1,4 +1,4 @@
-import { Destination, PlannerInput, Itinerary, DayPlan } from '../lib/types';
+import { PlannerInput, Itinerary, DayPlan } from '../lib/types';
 import { getDestinations } from '../lib/data';
 import { INTENSITY_STOPS } from '../lib/constants';
 import { scoreDestinations } from './scoring';

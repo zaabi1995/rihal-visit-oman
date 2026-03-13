@@ -1,7 +1,7 @@
 import { Destination, PlannerInput } from '../lib/types';
 import { haversineKm, totalRouteKm } from './haversine';
 import { scoreDestinations } from './scoring';
-import { INTENSITY_STOPS, MAX_DAILY_KM, MAX_DAILY_VISIT_MINUTES, MAX_SAME_CATEGORY_PER_DAY } from '../lib/constants';
+import { MAX_DAILY_KM, MAX_DAILY_VISIT_MINUTES, MAX_SAME_CATEGORY_PER_DAY } from '../lib/constants';
 
 export function optimizeRoute(
   candidates: Destination[],

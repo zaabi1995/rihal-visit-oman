@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "home": "الرئيسية",
+    "destinations": "الوجهات",
+    "planner": "مخطط الرحلة",
+    "language": "English"
+  },
+  "hero": {
+    "title": "اكتشف عُمان",
+    "subtitle": "خطط لرحلتك المثالية عبر السلطنة",
+    "cta": "خطط لرحلتك"
+  },
+  "categories": {
+    "mountain": "جبال",
+    "beach": "شاطئ",
+    "culture": "ثقافة",
+    "desert": "صحراء",
+    "nature": "طبيعة",
+    "food": "مأكولات"
+  },
+  "regions": {
+    "muscat": "مسقط",
+    "dakhiliya": "الداخلية",
+    "sharqiya": "الشرقية",
+    "dhofar": "ظفار",
+    "batinah": "الباطنة",
+    "dhahira": "الظاهرة"
+  },
+  "destinations": {
+    "title": "استكشف الوجهات",
+    "filter": "تصفية",
+    "sort": "ترتيب حسب",
+    "sortByCrowd": "مستوى الازدحام",
+    "sortByCost": "تكلفة التذكرة",
+    "allCategories": "جميع الفئات",
+    "allRegions": "جميع المناطق",
+    "allSeasons": "جميع الأشهر",
+    "saveInterest": "حفظ",
+    "removeInterest": "محفوظ",
+    "visitDuration": "مدة الزيارة",
+    "ticketCost": "تكلفة التذكرة",
+    "crowdLevel": "مستوى الازدحام",
+    "recommendedMonths": "أفضل الأشهر",
+    "results": "تم العثور على {count} وجهة"
+  },
+  "planner": {
+    "title": "خطط لرحلتك",
+    "days": "عدد الأيام",
+    "budget": "الميزانية",
+    "month": "شهر السفر",
+    "intensity": "كثافة الرحلة",
+    "categories": "الاهتمامات",
+    "generate": "إنشاء خط سير الرحلة",
+    "low": "اقتصادي",
+    "medium": "متوسط",
+    "luxury": "فاخر",
+    "relaxed": "مريح",
+    "balanced": "متوازن",
+    "packed": "مكثف"
+  },
+  "months": {
+    "jan": "يناير",
+    "feb": "فبراير",
+    "mar": "مارس",
+    "apr": "أبريل",
+    "may": "مايو",
+    "jun": "يونيو",
+    "jul": "يوليو",
+    "aug": "أغسطس",
+    "sep": "سبتمبر",
+    "oct": "أكتوبر",
+    "nov": "نوفمبر",
+    "dec": "ديسمبر"
+  },
+  "common": {
+    "minutes": "دقيقة",
+    "hours": "ساعات",
+    "km": "كم",
+    "omr": "ر.ع",
+    "free": "مجاني",
+    "perDay": "/ يوم",
+    "perNight": "/ ليلة",
+    "backToDestinations": "العودة إلى الوجهات"
+  },
+  "landing": {
+    "categoriesTitle": "استكشف حسب الفئة",
+    "featuredTitle": "وجهات مميزة",
+    "featuredSubtitle": "جواهر مخفية بازدحام منخفض، مثالية لهذا الوقت من السنة"
+  }
+}

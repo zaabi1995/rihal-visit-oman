@@ -1,4 +1,4 @@
-import { Destination, Category, PlannerInput } from '../lib/types';
+import { Destination, PlannerInput } from '../lib/types';
 import { SCORING_WEIGHTS } from '../lib/constants';
 import { detourKm } from './haversine';
 
