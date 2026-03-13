@@ -13,7 +13,7 @@ function jaccard(a: string[], b: string[]): number {
 
 function seasonFit(month: number, recommended: number[]): number {
   if (recommended.includes(month)) return 1;
-  // adjacent months get partial credit
+  // adjacent months get partial score
   const adjacent = [(month % 12) + 1, ((month - 2 + 12) % 12) + 1];
   if (adjacent.some(m => recommended.includes(m))) return 0.3;
   return 0;
