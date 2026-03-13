@@ -1,6 +1,5 @@
 'use client';
 
-import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import type { Itinerary, PlannedStop } from '@/lib/types';
 import DayCard from './DayCard';
@@ -25,8 +24,6 @@ export default function ItineraryView({
   selectedStop,
 }: ItineraryViewProps) {
   const t = useTranslations('planner');
-  const tRegions = useTranslations('regions');
-  const tc = useTranslations('common');
 
   // Region allocation summary
   const regionSummary = itinerary.regionAllocation.map((r) => {
