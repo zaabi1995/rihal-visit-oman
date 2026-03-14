@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Inter, IBM_Plex_Sans_Arabic } from 'next/font/google';
+import { Inter } from 'next/font/google';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
@@ -9,12 +9,6 @@ import Footer from '@/components/layout/Footer';
 import '../globals.css';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
-
-const ibmPlexSansArabic = IBM_Plex_Sans_Arabic({
-  subsets: ['arabic'],
-  weight: ['400', '500', '600', '700'],
-  variable: '--font-arabic',
-});
 
 export const metadata: Metadata = {
   title: 'Visit Oman | Discover & Plan',
@@ -48,7 +42,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} dir={isRtl ? 'rtl' : 'ltr'}>
-      <body className={`${inter.variable} ${ibmPlexSansArabic.variable} ${isRtl ? 'font-arabic' : 'font-sans'} min-h-screen flex flex-col bg-cream text-dark antialiased`}>
+      <body className={`${inter.variable} ${isRtl ? 'font-arabic' : 'font-sans'} min-h-screen flex flex-col bg-cream text-dark antialiased`}>
         <NextIntlClientProvider messages={messages}>
           <Header />
           <main className="flex-1">{children}</main>
