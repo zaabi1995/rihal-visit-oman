@@ -1,13 +1,19 @@
 # Visit Oman — Discover & Plan
 
+> **[View All Submissions — alizaabi.om/rihal-codestack](https://alizaabi.om/rihal-codestack/)**
+
+![Showcase](screenshots/showcase-main.png)
+
+**Live Demo:** [alizaabi.om/rihal-codestack/visit-oman/en](https://alizaabi.om/rihal-codestack/visit-oman/en) | **Arabic:** [alizaabi.om/rihal-codestack/visit-oman/ar](https://alizaabi.om/rihal-codestack/visit-oman/ar)
+
+---
+
 ![Rihal CODESTACKER 2026](https://img.shields.io/badge/Rihal%20CODESTACKER%202026-Challenge%20%231%20Frontend-blue?style=for-the-badge)
 ![Next.js](https://img.shields.io/badge/Next.js%2014-black?style=for-the-badge&logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
 A bilingual (EN/AR) travel discovery and planning app for Oman, built for the **Rihal CODESTACKER 2026 — Challenge #1 (Frontend)**.
-
-**Live Demo:** [https://alizaabi.om/rihal-codestack/visit-oman/en](https://alizaabi.om/rihal-codestack/visit-oman/en)
 
 ---
 
@@ -124,3 +130,10 @@ src/
 
 **Ali Al Zaabi**
 Rihal CODESTACKER 2026 — Challenge #1 (Frontend)
+
+---
+
+## Other Challenges
+- [FlowCare API](https://github.com/zaabi1995/rihal-flowcare) — Challenge #2: Backend Development
+- [DE Pipeline](https://github.com/zaabi1995/rihal-de-pipeline) — Challenge #4: Data Engineering
+- [Muscat 2040](https://github.com/zaabi1995/rihal-muscat-2040) — Challenge #6: Data Analytics
