@@ -32,10 +32,10 @@ export default function DestinationCard({ destination }: { destination: Destinat
   return (
     <Link
       href={`/destinations/${destination.id}`}
-      className="group block rounded-xl bg-white border border-sandy-gold/10
+      className="group block rounded-2xl bg-white border border-gray-100
                  shadow-sm hover:shadow-md transition-all duration-200 overflow-hidden"
     >
-      <div className="h-1.5 bg-gradient-to-r from-teal to-sandy-gold" />
+      <div className="h-1 bg-teal" />
 
       <div className="p-4 sm:p-5">
         <div className="flex items-start justify-between gap-2">

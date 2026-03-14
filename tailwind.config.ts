@@ -8,12 +8,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['var(--font-inter)', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+      },
       colors: {
-        cream: '#FFFBF5',
-        'sandy-gold': '#D4A574',
-        teal: '#0891B2',
-        terracotta: '#C2410C',
-        dark: '#1C1917',
+        cream: '#F5F5F5',
+        'sandy-gold': '#E0E0E0',
+        teal: '#00DE51',
+        terracotta: '#00DE51',
+        dark: '#1A1A1A',
       },
     },
   },

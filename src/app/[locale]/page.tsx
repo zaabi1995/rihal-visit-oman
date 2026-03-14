@@ -49,21 +49,25 @@ export default async function HomePage({
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-sandy-gold/30 via-cream to-teal/20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 sm:py-32">
+      <section className="relative overflow-hidden bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-28">
           <div className="text-center max-w-3xl mx-auto">
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-teal/10 text-teal text-sm font-medium mb-6">
+              <svg className="w-4 h-4" viewBox="0 0 40 32" fill="none"><path d="M2 2L12 28L22 2" stroke="currentColor" strokeWidth="3.5" strokeLinecap="round" strokeLinejoin="round"/><circle cx="30" cy="16" r="9" stroke="currentColor" strokeWidth="3.5"/></svg>
+              Visit Oman
+            </div>
             <h1 className="text-5xl sm:text-6xl font-bold text-dark tracking-tight">
               {t('hero.title')}
             </h1>
-            <p className="mt-6 text-lg sm:text-xl text-dark/60 leading-relaxed">
+            <p className="mt-6 text-lg sm:text-xl text-dark/50 leading-relaxed">
               {t('hero.subtitle')}
             </p>
             <div className="mt-10">
               <Link
                 href="/planner"
-                className="inline-flex items-center px-8 py-3.5 rounded-xl bg-teal text-white
-                           font-semibold text-lg shadow-lg shadow-teal/25 hover:bg-teal/90
-                           transition-all duration-200 hover:shadow-xl hover:shadow-teal/30"
+                className="inline-flex items-center px-8 py-3.5 rounded-full bg-teal text-dark
+                           font-semibold text-lg shadow-lg shadow-teal/25 hover:shadow-xl hover:shadow-teal/30
+                           transition-all duration-200"
               >
                 {t('hero.cta')}
                 <svg className="w-5 h-5 ms-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -73,10 +77,6 @@ export default async function HomePage({
             </div>
           </div>
         </div>
-
-        {/* decorative gradient blobs */}
-        <div className="absolute top-0 start-0 w-72 h-72 bg-sandy-gold/20 rounded-full -translate-x-1/2 -translate-y-1/2 blur-3xl" />
-        <div className="absolute bottom-0 end-0 w-96 h-96 bg-teal/10 rounded-full translate-x-1/3 translate-y-1/3 blur-3xl" />
       </section>
 
       {/* Category Explorer */}
@@ -89,14 +89,14 @@ export default async function HomePage({
             <Link
               key={cat}
               href={`/destinations?category=${cat}`}
-              className="group flex flex-col items-center gap-3 p-6 rounded-xl bg-white
-                         border border-sandy-gold/10 shadow-sm hover:shadow-md
-                         hover:border-teal/30 transition-all duration-200"
+              className="group flex flex-col items-center gap-3 p-6 rounded-2xl bg-white
+                         border border-gray-100 shadow-sm hover:shadow-md
+                         hover:border-teal/40 transition-all duration-200"
             >
               <span className="text-4xl group-hover:scale-110 transition-transform duration-200">
                 {categoryIcons[cat]}
               </span>
-              <span className="text-sm font-medium text-dark/80 group-hover:text-teal transition-colors">
+              <span className="text-sm font-medium text-dark/70 group-hover:text-teal transition-colors">
                 {t(`categories.${cat}`)}
               </span>
             </Link>
@@ -105,7 +105,7 @@ export default async function HomePage({
       </section>
 
       {/* Featured Destinations */}
-      <section className="bg-white/50 py-16 sm:py-20">
+      <section className="bg-white py-16 sm:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-dark">
