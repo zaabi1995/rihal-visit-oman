@@ -2,7 +2,8 @@
 
 > **[View All Submissions — alizaabi.om/rihal-codestack](https://alizaabi.om/rihal-codestack/)**
 
-![Showcase](screenshots/showcase-main.png)
+![Showcase](screenshots/showcase-hero.png)
+![Challenges](screenshots/showcase-challenges.png)
 
 **Live Demo:** [alizaabi.om/rihal-codestack/visit-oman/en](https://alizaabi.om/rihal-codestack/visit-oman/en) | **Arabic:** [alizaabi.om/rihal-codestack/visit-oman/ar](https://alizaabi.om/rihal-codestack/visit-oman/ar)
 
