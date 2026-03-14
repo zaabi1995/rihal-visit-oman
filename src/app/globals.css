@@ -16,14 +16,6 @@ body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
-/* Arabic / RTL typography */
-[dir='rtl'] body,
-[lang='ar'] body,
-[dir='rtl'],
-[lang='ar'] {
-  font-family: 'IBM Plex Sans Arabic', sans-serif;
-}
-
 html {
   scroll-behavior: smooth;
 }
