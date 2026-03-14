@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       fontFamily: {
         sans: ['var(--font-inter)', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+        arabic: ['var(--font-arabic)', 'IBM Plex Sans Arabic', 'sans-serif'],
       },
       colors: {
         cream: '#F5F5F5',
