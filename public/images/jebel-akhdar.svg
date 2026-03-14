@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="jSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a237e"/>
+      <stop offset="40%" stop-color="#3949ab"/>
+      <stop offset="100%" stop-color="#7986cb"/>
+    </linearGradient>
+    <linearGradient id="peak1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e0e0e0"/>
+      <stop offset="30%" stop-color="#9e9e9e"/>
+      <stop offset="100%" stop-color="#546e7a"/>
+    </linearGradient>
+    <linearGradient id="peak2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#b0bec5"/>
+      <stop offset="40%" stop-color="#78909c"/>
+      <stop offset="100%" stop-color="#37474f"/>
+    </linearGradient>
+    <linearGradient id="green1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4caf50"/>
+      <stop offset="100%" stop-color="#1b5e20"/>
+    </linearGradient>
+    <linearGradient id="green2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#66bb6a"/>
+      <stop offset="100%" stop-color="#2e7d32"/>
+    </linearGradient>
+    <linearGradient id="terrace" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8d6e63"/>
+      <stop offset="100%" stop-color="#5d4037"/>
+    </linearGradient>
+  </defs>
+  <!-- Sky -->
+  <rect width="800" height="600" fill="url(#jSky)"/>
+  <!-- Clouds -->
+  <ellipse cx="200" cy="120" rx="80" ry="25" fill="white" opacity="0.3"/>
+  <ellipse cx="250" cy="115" rx="60" ry="20" fill="white" opacity="0.25"/>
+  <ellipse cx="600" cy="80" rx="90" ry="28" fill="white" opacity="0.2"/>
+  <!-- Far peak -->
+  <polygon points="0,300 150,150 300,200 400,120 500,180 600,100 700,160 800,250 800,400 0,400" fill="url(#peak1)" opacity="0.5"/>
+  <!-- Snow caps on far peak -->
+  <polygon points="400,120 380,160 420,155" fill="white" opacity="0.6"/>
+  <polygon points="600,100 575,145 625,140" fill="white" opacity="0.6"/>
+  <!-- Main mountain -->
+  <polygon points="0,380 100,250 250,320 400,200 550,280 700,220 800,300 800,500 0,500" fill="url(#peak2)"/>
+  <!-- Snow on main peaks -->
+  <polygon points="400,200 375,250 425,245" fill="white" opacity="0.7"/>
+  <polygon points="700,220 680,260 720,255" fill="white" opacity="0.7"/>
+  <polygon points="100,250 80,290 120,285" fill="white" opacity="0.5"/>
+  <!-- Mountain face shadows -->
+  <polygon points="400,200 425,245 550,280 480,260" fill="#263238" opacity="0.2"/>
+  <polygon points="700,220 720,255 800,300 760,270" fill="#263238" opacity="0.2"/>
+  <!-- Terraced farms (Jebel Akhdar is famous for these) -->
+  <rect x="250" y="380" width="300" height="8" fill="url(#terrace)" rx="2"/>
+  <rect x="230" y="395" width="340" height="8" fill="url(#terrace)" rx="2"/>
+  <rect x="210" y="410" width="380" height="8" fill="url(#terrace)" rx="2"/>
+  <rect x="190" y="425" width="420" height="8" fill="url(#terrace)" rx="2"/>
+  <!-- Green terraces (rose gardens) -->
+  <rect x="255" y="385" width="80" height="6" fill="url(#green1)" rx="1"/>
+  <rect x="370" y="385" width="60" height="6" fill="url(#green2)" rx="1"/>
+  <rect x="240" y="400" width="100" height="6" fill="url(#green2)" rx="1"/>
+  <rect x="380" y="400" width="70" height="6" fill="url(#green1)" rx="1"/>
+  <rect x="220" y="415" width="120" height="6" fill="url(#green1)" rx="1"/>
+  <rect x="390" y="415" width="90" height="6" fill="url(#green2)" rx="1"/>
+  <!-- Rose bushes (dots) -->
+  <circle cx="280" cy="388" r="3" fill="#e91e63" opacity="0.6"/>
+  <circle cx="295" cy="387" r="2.5" fill="#f06292" opacity="0.5"/>
+  <circle cx="310" cy="389" r="2" fill="#e91e63" opacity="0.6"/>
+  <circle cx="260" cy="403" r="3" fill="#f06292" opacity="0.5"/>
+  <circle cx="275" cy="402" r="2.5" fill="#e91e63" opacity="0.6"/>
+  <!-- Foreground slope -->
+  <path d="M0,500 Q200,460 400,480 Q600,500 800,470 L800,600 L0,600 Z" fill="url(#green1)" opacity="0.8"/>
+  <path d="M0,540 Q200,520 400,530 Q600,540 800,515 L800,600 L0,600 Z" fill="#1b5e20"/>
+  <!-- Small village -->
+  <rect x="490" y="400" width="15" height="20" fill="#d7ccc8"/>
+  <polygon points="490,400 497,390 505,400" fill="#8d6e63"/>
+  <rect x="515" y="405" width="12" height="15" fill="#efebe9"/>
+  <polygon points="515,405 521,397 527,405" fill="#795548"/>
+  <!-- Atmosphere -->
+  <rect width="800" height="600" fill="white" opacity="0.03"/>
+</svg>

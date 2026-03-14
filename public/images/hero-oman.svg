@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 800" width="1920" height="800">
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="60%">
+      <stop offset="0%" stop-color="#1a0533"/>
+      <stop offset="30%" stop-color="#c2185b" stop-opacity="0.6"/>
+      <stop offset="60%" stop-color="#ff6f00" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#ffcc02"/>
+    </linearGradient>
+    <linearGradient id="mountain1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4a148c"/>
+      <stop offset="100%" stop-color="#1a0a2e"/>
+    </linearGradient>
+    <linearGradient id="mountain2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#311b92"/>
+      <stop offset="100%" stop-color="#0d0521"/>
+    </linearGradient>
+    <linearGradient id="desert" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e65100"/>
+      <stop offset="100%" stop-color="#bf360c"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff9c4"/>
+      <stop offset="40%" stop-color="#ffcc02"/>
+      <stop offset="100%" stop-color="#ff6f00" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <!-- Sky -->
+  <rect width="1920" height="800" fill="url(#sky)"/>
+  <!-- Sun -->
+  <circle cx="960" cy="420" r="80" fill="url(#sun)" filter="url(#glow)"/>
+  <!-- Far mountains -->
+  <polygon points="0,500 200,350 400,420 600,300 800,380 960,280 1120,360 1300,310 1500,400 1700,340 1920,450 1920,800 0,800" fill="url(#mountain1)" opacity="0.7"/>
+  <!-- Near mountains -->
+  <polygon points="0,550 150,450 350,500 500,400 700,470 900,380 1050,440 1200,370 1400,450 1600,390 1800,460 1920,500 1920,800 0,800" fill="url(#mountain2)" opacity="0.8"/>
+  <!-- Desert foreground -->
+  <path d="M0,650 Q240,600 480,640 Q720,680 960,620 Q1200,560 1440,630 Q1680,700 1920,650 L1920,800 L0,800 Z" fill="url(#desert)" opacity="0.9"/>
+  <!-- Sand dunes detail -->
+  <path d="M0,700 Q320,660 640,690 Q960,720 1280,680 Q1600,640 1920,700 L1920,800 L0,800 Z" fill="#d84315" opacity="0.6"/>
+  <!-- Stars -->
+  <circle cx="200" cy="80" r="2" fill="white" opacity="0.8"/>
+  <circle cx="500" cy="120" r="1.5" fill="white" opacity="0.6"/>
+  <circle cx="800" cy="60" r="2" fill="white" opacity="0.7"/>
+  <circle cx="1100" cy="100" r="1.5" fill="white" opacity="0.5"/>
+  <circle cx="1400" cy="50" r="2" fill="white" opacity="0.8"/>
+  <circle cx="1700" cy="90" r="1.5" fill="white" opacity="0.6"/>
+  <circle cx="350" cy="150" r="1" fill="white" opacity="0.4"/>
+  <circle cx="1250" cy="170" r="1" fill="white" opacity="0.5"/>
+  <circle cx="1600" cy="140" r="1.5" fill="white" opacity="0.6"/>
+  <!-- Overlay text area gradient -->
+  <rect width="1920" height="800" fill="black" opacity="0.15"/>
+</svg>

@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="nSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0277bd"/>
+      <stop offset="60%" stop-color="#4fc3f7"/>
+      <stop offset="100%" stop-color="#e1f5fe"/>
+    </linearGradient>
+    <linearGradient id="fort" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d7ccc8"/>
+      <stop offset="50%" stop-color="#bcaaa4"/>
+      <stop offset="100%" stop-color="#8d6e63"/>
+    </linearGradient>
+    <linearGradient id="tower" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#efebe9"/>
+      <stop offset="100%" stop-color="#a1887f"/>
+    </linearGradient>
+    <linearGradient id="wall" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d7ccc8"/>
+      <stop offset="100%" stop-color="#795548"/>
+    </linearGradient>
+    <linearGradient id="nGround" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e8d5b7"/>
+      <stop offset="100%" stop-color="#c9a96e"/>
+    </linearGradient>
+    <linearGradient id="shadow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3e2723" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#3e2723" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <!-- Sky -->
+  <rect width="800" height="600" fill="url(#nSky)"/>
+  <!-- Distant mountains -->
+  <polygon points="0,350 80,290 180,320 300,270 420,310 550,260 680,300 800,270 800,400 0,400" fill="#90a4ae" opacity="0.3"/>
+  <!-- Fort outer walls - left -->
+  <rect x="100" y="280" width="200" height="150" fill="url(#wall)"/>
+  <!-- Fort outer walls - right -->
+  <rect x="500" y="280" width="200" height="150" fill="url(#wall)"/>
+  <!-- Battlements left wall -->
+  <rect x="100" y="270" width="25" height="15" fill="url(#wall)"/>
+  <rect x="140" y="270" width="25" height="15" fill="url(#wall)"/>
+  <rect x="180" y="270" width="25" height="15" fill="url(#wall)"/>
+  <rect x="220" y="270" width="25" height="15" fill="url(#wall)"/>
+  <rect x="260" y="270" width="25" height="15" fill="url(#wall)"/>
+  <!-- Battlements right wall -->
+  <rect x="500" y="270" width="25" height="15" fill="url(#wall)"/>
+  <rect x="540" y="270" width="25" height="15" fill="url(#wall)"/>
+  <rect x="580" y="270" width="25" height="15" fill="url(#wall)"/>
+  <rect x="620" y="270" width="25" height="15" fill="url(#wall)"/>
+  <rect x="660" y="270" width="25" height="15" fill="url(#wall)"/>
+  <!-- Main round tower -->
+  <ellipse cx="400" cy="430" rx="120" ry="120" fill="url(#fort)"/>
+  <ellipse cx="400" cy="310" rx="120" ry="30" fill="url(#tower)"/>
+  <!-- Tower battlements -->
+  <rect x="285" y="295" width="18" height="18" fill="url(#tower)"/>
+  <rect x="315" y="295" width="18" height="18" fill="url(#tower)"/>
+  <rect x="345" y="295" width="18" height="18" fill="url(#tower)"/>
+  <rect x="375" y="295" width="18" height="18" fill="url(#tower)"/>
+  <rect x="405" y="295" width="18" height="18" fill="url(#tower)"/>
+  <rect x="435" y="295" width="18" height="18" fill="url(#tower)"/>
+  <rect x="465" y="295" width="18" height="18" fill="url(#tower)"/>
+  <rect x="495" y="295" width="18" height="18" fill="url(#tower)"/>
+  <!-- Tower windows -->
+  <rect x="360" y="350" width="12" height="20" fill="#3e2723" rx="6" ry="6"/>
+  <rect x="390" y="350" width="12" height="20" fill="#3e2723" rx="6" ry="6"/>
+  <rect x="420" y="350" width="12" height="20" fill="#3e2723" rx="6" ry="6"/>
+  <!-- Wall windows -->
+  <rect x="150" y="320" width="10" height="16" fill="#3e2723" rx="5" ry="5"/>
+  <rect x="200" y="320" width="10" height="16" fill="#3e2723" rx="5" ry="5"/>
+  <rect x="250" y="320" width="10" height="16" fill="#3e2723" rx="5" ry="5"/>
+  <rect x="550" y="320" width="10" height="16" fill="#3e2723" rx="5" ry="5"/>
+  <rect x="600" y="320" width="10" height="16" fill="#3e2723" rx="5" ry="5"/>
+  <rect x="650" y="320" width="10" height="16" fill="#3e2723" rx="5" ry="5"/>
+  <!-- Gate -->
+  <rect x="165" y="380" width="40" height="50" fill="#3e2723" rx="20" ry="20"/>
+  <!-- Tower shadow -->
+  <ellipse cx="440" cy="400" rx="80" ry="100" fill="url(#shadow)"/>
+  <!-- Ground -->
+  <rect x="0" y="430" width="800" height="170" fill="url(#nGround)"/>
+  <!-- Courtyard paving -->
+  <rect x="100" y="430" width="600" height="5" fill="#a1887f" opacity="0.3"/>
+  <!-- Palm trees -->
+  <rect x="60" y="350" width="5" height="80" fill="#5d4037"/>
+  <ellipse cx="62" cy="345" rx="22" ry="10" fill="#2e7d32"/>
+  <ellipse cx="50" cy="350" rx="18" ry="7" fill="#388e3c"/>
+  <ellipse cx="74" cy="352" rx="18" ry="7" fill="#1b5e20"/>
+  <rect x="740" y="360" width="5" height="70" fill="#5d4037"/>
+  <ellipse cx="742" cy="355" rx="22" ry="10" fill="#2e7d32"/>
+  <ellipse cx="730" cy="360" rx="18" ry="7" fill="#388e3c"/>
+  <ellipse cx="754" cy="362" rx="18" ry="7" fill="#1b5e20"/>
+  <!-- Omani flag hint on tower -->
+  <rect x="395" y="290" width="2" height="30" fill="#5d4037"/>
+  <rect x="397" y="290" width="12" height="4" fill="#c62828"/>
+  <rect x="397" y="294" width="12" height="4" fill="white"/>
+  <rect x="397" y="298" width="12" height="4" fill="#2e7d32"/>
+  <!-- Foreground sandy path -->
+  <path d="M300,600 Q350,500 400,480 Q450,500 500,600" fill="#c9a96e" opacity="0.4"/>
+  <!-- Visitors (tiny figures) -->
+  <circle cx="350" cy="470" r="3" fill="#37474f"/>
+  <rect x="348" y="473" width="4" height="8" fill="#37474f"/>
+  <circle cx="440" cy="475" r="3" fill="#4e342e"/>
+  <rect x="438" y="478" width="4" height="8" fill="#4e342e"/>
+  <!-- Atmosphere -->
+  <rect width="800" height="600" fill="black" opacity="0.03"/>
+</svg>

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="wSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff6f00"/>
+      <stop offset="40%" stop-color="#ffb300"/>
+      <stop offset="100%" stop-color="#fff8e1"/>
+    </linearGradient>
+    <linearGradient id="dune1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e65100"/>
+      <stop offset="100%" stop-color="#bf360c"/>
+    </linearGradient>
+    <linearGradient id="dune2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff8f00"/>
+      <stop offset="100%" stop-color="#e65100"/>
+    </linearGradient>
+    <linearGradient id="dune3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffb74d"/>
+      <stop offset="100%" stop-color="#e65100"/>
+    </linearGradient>
+    <radialGradient id="wSun" cx="70%" cy="30%" r="25%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="30%" stop-color="#fff9c4"/>
+      <stop offset="100%" stop-color="#ffb300" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="haze">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+  </defs>
+  <!-- Sky -->
+  <rect width="800" height="600" fill="url(#wSky)"/>
+  <!-- Sun -->
+  <circle cx="560" cy="150" r="120" fill="url(#wSun)"/>
+  <circle cx="560" cy="150" r="40" fill="#fff9c4"/>
+  <!-- Distant dunes (hazy) -->
+  <path d="M0,350 Q100,300 200,330 Q300,360 400,310 Q500,260 600,300 Q700,340 800,290 L800,400 L0,400 Z" fill="#d4a056" opacity="0.4" filter="url(#haze)"/>
+  <!-- Mid dunes -->
+  <path d="M0,400 Q80,340 180,380 Q280,420 400,350 Q520,280 650,360 Q750,420 800,380 L800,500 L0,500 Z" fill="url(#dune2)"/>
+  <!-- Dune shadow lines -->
+  <path d="M400,350 Q460,330 520,350 Q580,370 650,360" fill="none" stroke="#bf360c" stroke-width="1" opacity="0.3"/>
+  <path d="M100,390 Q160,370 220,390 Q280,410 340,395" fill="none" stroke="#bf360c" stroke-width="1" opacity="0.3"/>
+  <!-- Near dunes -->
+  <path d="M0,480 Q100,420 220,460 Q340,500 480,430 Q620,360 740,440 Q780,460 800,450 L800,600 L0,600 Z" fill="url(#dune1)"/>
+  <!-- Foreground dune -->
+  <path d="M0,550 Q200,500 400,540 Q600,580 800,530 L800,600 L0,600 Z" fill="url(#dune3)"/>
+  <!-- Sand ripple patterns -->
+  <path d="M50,560 Q100,555 150,560 Q200,565 250,560 Q300,555 350,560 Q400,565 450,560" fill="none" stroke="#e65100" stroke-width="0.8" opacity="0.4"/>
+  <path d="M200,575 Q250,570 300,575 Q350,580 400,575 Q450,570 500,575 Q550,580 600,575" fill="none" stroke="#e65100" stroke-width="0.8" opacity="0.3"/>
+  <path d="M400,585 Q450,582 500,585 Q550,588 600,585 Q650,582 700,585" fill="none" stroke="#e65100" stroke-width="0.8" opacity="0.3"/>
+  <!-- Camel silhouettes -->
+  <g fill="#5d4037" opacity="0.6" transform="translate(150,360) scale(0.4)">
+    <ellipse cx="0" cy="0" rx="40" ry="20"/>
+    <ellipse cx="-20" cy="-15" rx="10" ry="15"/>
+    <rect x="-35" y="10" width="6" height="30"/>
+    <rect x="20" y="10" width="6" height="30"/>
+    <circle cx="-22" cy="-28" r="7"/>
+  </g>
+  <g fill="#5d4037" opacity="0.5" transform="translate(220,370) scale(0.35)">
+    <ellipse cx="0" cy="0" rx="40" ry="20"/>
+    <ellipse cx="-20" cy="-15" rx="10" ry="15"/>
+    <rect x="-35" y="10" width="6" height="30"/>
+    <rect x="20" y="10" width="6" height="30"/>
+    <circle cx="-22" cy="-28" r="7"/>
+  </g>
+  <!-- Heat shimmer overlay -->
+  <rect width="800" height="600" fill="white" opacity="0.05"/>
+</svg>

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="wsSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1565c0"/>
+      <stop offset="100%" stop-color="#4fc3f7"/>
+    </linearGradient>
+    <linearGradient id="cliff1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8d6e63"/>
+      <stop offset="100%" stop-color="#4e342e"/>
+    </linearGradient>
+    <linearGradient id="cliff2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a1887f"/>
+      <stop offset="100%" stop-color="#5d4037"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00bfa5"/>
+      <stop offset="30%" stop-color="#00897b"/>
+      <stop offset="100%" stop-color="#004d40"/>
+    </linearGradient>
+    <linearGradient id="waterDeep" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#26a69a"/>
+      <stop offset="100%" stop-color="#00695c"/>
+    </linearGradient>
+    <filter id="waterGlow">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+  </defs>
+  <!-- Sky -->
+  <rect width="800" height="600" fill="url(#wsSky)"/>
+  <!-- Left cliff wall -->
+  <polygon points="0,0 0,600 180,600 200,500 160,400 140,300 180,200 150,100 120,0" fill="url(#cliff1)"/>
+  <!-- Left cliff texture -->
+  <polygon points="0,100 120,0 150,100 140,200 0,250" fill="#6d4c41" opacity="0.4"/>
+  <polygon points="0,300 140,300 160,400 0,450" fill="#5d4037" opacity="0.3"/>
+  <!-- Right cliff wall -->
+  <polygon points="800,0 800,600 620,600 600,480 640,380 660,280 620,180 650,80 680,0" fill="url(#cliff2)"/>
+  <!-- Right cliff texture -->
+  <polygon points="800,50 680,0 650,80 620,180 800,200" fill="#795548" opacity="0.4"/>
+  <polygon points="800,350 640,380 600,480 800,500" fill="#4e342e" opacity="0.3"/>
+  <!-- Turquoise water pool -->
+  <path d="M180,350 Q300,330 400,340 Q500,350 620,340 L600,480 Q500,500 400,490 Q300,480 200,500 Z" fill="url(#water)"/>
+  <!-- Water glow -->
+  <path d="M200,380 Q300,370 400,375 Q500,380 600,370 L590,450 Q500,460 400,455 Q300,450 210,460 Z" fill="#00e5ff" opacity="0.15" filter="url(#waterGlow)"/>
+  <!-- Water surface highlights -->
+  <ellipse cx="350" cy="390" rx="40" ry="5" fill="white" opacity="0.15"/>
+  <ellipse cx="450" cy="410" rx="30" ry="4" fill="white" opacity="0.12"/>
+  <ellipse cx="300" cy="420" rx="25" ry="3" fill="white" opacity="0.1"/>
+  <ellipse cx="500" cy="380" rx="35" ry="4" fill="white" opacity="0.13"/>
+  <!-- Rocks in water -->
+  <ellipse cx="250" cy="400" rx="15" ry="8" fill="#5d4037"/>
+  <ellipse cx="550" cy="420" rx="12" ry="7" fill="#6d4c41"/>
+  <ellipse cx="400" cy="450" rx="18" ry="9" fill="#4e342e"/>
+  <!-- Vegetation on cliffs -->
+  <circle cx="170" cy="250" r="12" fill="#2e7d32" opacity="0.7"/>
+  <circle cx="155" cy="240" r="10" fill="#388e3c" opacity="0.6"/>
+  <circle cx="185" cy="260" r="8" fill="#1b5e20" opacity="0.7"/>
+  <circle cx="630" cy="230" r="12" fill="#2e7d32" opacity="0.7"/>
+  <circle cx="645" cy="240" r="10" fill="#388e3c" opacity="0.6"/>
+  <circle cx="615" cy="250" r="9" fill="#1b5e20" opacity="0.7"/>
+  <!-- Palm trees on top -->
+  <rect x="140" y="80" width="4" height="40" fill="#5d4037"/>
+  <ellipse cx="142" cy="78" rx="18" ry="8" fill="#2e7d32"/>
+  <ellipse cx="135" cy="82" rx="14" ry="6" fill="#388e3c"/>
+  <rect x="650" y="60" width="4" height="35" fill="#5d4037"/>
+  <ellipse cx="652" cy="58" rx="18" ry="8" fill="#2e7d32"/>
+  <ellipse cx="660" cy="62" rx="14" ry="6" fill="#388e3c"/>
+  <!-- Foreground rocks -->
+  <path d="M0,500 Q50,470 100,490 Q150,510 200,500 L180,600 L0,600 Z" fill="#3e2723"/>
+  <path d="M600,480 Q650,460 700,480 Q750,500 800,490 L800,600 L620,600 Z" fill="#3e2723"/>
+  <!-- Bottom water -->
+  <path d="M200,500 Q300,490 400,495 Q500,500 600,480 L620,600 L180,600 Z" fill="url(#waterDeep)"/>
+  <!-- Light overlay -->
+  <rect width="800" height="600" fill="black" opacity="0.05"/>
+</svg>
