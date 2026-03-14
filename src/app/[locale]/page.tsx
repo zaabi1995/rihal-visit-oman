@@ -28,7 +28,7 @@ export default async function HomePage({
   const featured = getFeaturedDestinations();
   const locale = params.locale as 'en' | 'ar';
 
-  // Serialise translations into a plain object — functions can't cross server→client boundary
+  // Serialise translations into a plain object - functions can't cross server→client boundary
   const translations: Record<string, string> = {
     'landing.categoriesTitle': t('landing.categoriesTitle'),
     'landing.featuredTitle': t('landing.featuredTitle'),

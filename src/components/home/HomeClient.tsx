@@ -97,7 +97,7 @@ function DestinationIllustration({ dest }: { dest: Destination }) {
 
   // Pick illustration based on destination name keywords
   if (name.includes('wadi') || name.includes('shab') || name.includes('tiwi') || name.includes('bimmah')) {
-    // Wadi — blue water + rocky canyon walls
+    // Wadi - blue water + rocky canyon walls
     return (
       <div className="relative w-full h-full overflow-hidden">
         {/* Sky */}

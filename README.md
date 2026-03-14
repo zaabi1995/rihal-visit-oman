@@ -1,6 +1,6 @@
-# Visit Oman — Discover & Plan
+# Visit Oman - Discover & Plan
 
-> **[View All Submissions — alizaabi.om/rihal-codestack](https://alizaabi.om/rihal-codestack/)**
+> **[View All Submissions - alizaabi.om/rihal-codestack](https://alizaabi.om/rihal-codestack/)**
 
 ![Showcase](screenshots/showcase-hero.png)
 ![Challenges](screenshots/showcase-challenges.png)
@@ -14,7 +14,7 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
-A bilingual (EN/AR) travel discovery and planning app for Oman, built for the **Rihal CODESTACKER 2026 — Challenge #1 (Frontend)**.
+A bilingual (EN/AR) travel discovery and planning app for Oman, built for the **Rihal CODESTACKER 2026 - Challenge #1 (Frontend)**.
 
 ---
 
@@ -54,7 +54,7 @@ The planner ranks destinations using a weighted score across four factors:
 | Popularity | 20% | Destination rating and visitor volume |
 | Diversity | 15% | Variety boost to avoid clustering similar destination types |
 
-After scoring, the route is optimized using **2-opt** — a classical TSP heuristic that iteratively reverses sub-routes to minimize total travel distance, consistently cutting route length by 15–25% vs. greedy ordering.
+After scoring, the route is optimized using **2-opt** - a classical TSP heuristic that iteratively reverses sub-routes to minimize total travel distance, consistently cutting route length by 15–25% vs. greedy ordering.
 
 Full algorithm breakdown:
 
@@ -95,7 +95,7 @@ All components normalized to [0,1]. Weights and constraints documented in `src/l
 
 ## Architecture
 
-- **SSG pages**: Landing, destination browsing, destination details — pre-rendered at build time (300 destinations × 2 locales = 600 pages)
+- **SSG pages**: Landing, destination browsing, destination details - pre-rendered at build time (300 destinations × 2 locales = 600 pages)
 - **CSR planner**: Trip planning algorithm runs client-side for a fully interactive experience with no backend
 - **No external APIs**: All routing uses the Haversine formula; no mapping or booking APIs required
 
@@ -130,11 +130,11 @@ src/
 ## Author
 
 **Ali Al Zaabi**
-Rihal CODESTACKER 2026 — Challenge #1 (Frontend)
+Rihal CODESTACKER 2026 - Challenge #1 (Frontend)
 
 ---
 
 ## Other Challenges
-- [FlowCare API](https://github.com/zaabi1995/rihal-flowcare) — Challenge #2: Backend Development
-- [DE Pipeline](https://github.com/zaabi1995/rihal-de-pipeline) — Challenge #4: Data Engineering
-- [Muscat 2040](https://github.com/zaabi1995/rihal-muscat-2040) — Challenge #6: Data Analytics
+- [FlowCare API](https://github.com/zaabi1995/rihal-flowcare) - Challenge #2: Backend Development
+- [DE Pipeline](https://github.com/zaabi1995/rihal-de-pipeline) - Challenge #4: Data Engineering
+- [Muscat 2040](https://github.com/zaabi1995/rihal-muscat-2040) - Challenge #6: Data Analytics

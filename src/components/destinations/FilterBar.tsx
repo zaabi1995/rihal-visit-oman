@@ -7,7 +7,7 @@ import { CATEGORIES, REGIONS } from '@/lib/constants';
 
 const MONTH_KEYS = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'] as const;
 
-// Category visual config — colors matching DestinationCard
+// Category visual config - colors matching DestinationCard
 const CATEGORY_COLORS: Record<string, { active: string; icon: string }> = {
   beach:    { active: 'from-cyan-500 to-teal-400',   icon: '🏖️' },
   mountain: { active: 'from-emerald-600 to-green-500', icon: '⛰️' },

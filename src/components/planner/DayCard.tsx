@@ -85,7 +85,7 @@ export default function DayCard({ dayPlan, onSelectStop, selectedStopId }: DayCa
         </div>
       </button>
 
-      {/* Stops — timeline layout */}
+      {/* Stops - timeline layout */}
       {expanded && (
         <div className="px-4 sm:px-5 pb-4">
           {dayPlan.stops.length === 0 && (

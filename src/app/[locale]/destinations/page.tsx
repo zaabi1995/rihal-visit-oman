@@ -123,7 +123,7 @@ export default async function DestinationsPage({
 
             {/* Subtitle */}
             <p className="text-white/60 text-lg sm:text-xl leading-relaxed mb-8 max-w-xl">
-              From turquoise wadis to golden dunes, ancient forts to mountain peaks —
+              From turquoise wadis to golden dunes, ancient forts to mountain peaks -
               discover Oman&apos;s most extraordinary places.
             </p>
 

@@ -58,7 +58,7 @@ export default function ItineraryView({
 
   return (
     <div className="space-y-4">
-      {/* Region Allocation Summary — visual journey timeline */}
+      {/* Region Allocation Summary - visual journey timeline */}
       <div className="bg-white rounded-2xl border border-sandy-gold/10 shadow-sm overflow-hidden">
         <div className="px-5 pt-4 pb-3">
           <div className="flex items-center gap-2 mb-3">
