@@ -54,7 +54,7 @@ The planner ranks destinations using a weighted score across four factors:
 | Popularity | 20% | Destination rating and visitor volume |
 | Diversity | 15% | Variety boost to avoid clustering similar destination types |
 
-After scoring, the route is optimized using **2-opt** - a classical TSP heuristic that iteratively reverses sub-routes to minimize total travel distance, consistently cutting route length by 15–25% vs. greedy ordering.
+After scoring, the route is optimized using **2-opt** - a classical TSP heuristic that iteratively reverses sub-routes to minimize total travel distance, consistently cutting route length by 15, 25% vs. greedy ordering.
 
 Full algorithm breakdown:
 
